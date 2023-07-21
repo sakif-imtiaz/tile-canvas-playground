@@ -1,0 +1,13 @@
+[package]
+name = "arby"
+authors = ["skay <skaypist@gmail.com>"]
+version = "0.1.0"
+homepage = "https://github.com/skaypist/arby"
+repository = "https://github.com/skaypist/arby"
+keywords = ["require"]
+
+requires = ["arby.rb", "lookup.rb", "drgtk_forwardable.rb"]
+
+[dragonruby]
+version = "2"
+edition = "standard"

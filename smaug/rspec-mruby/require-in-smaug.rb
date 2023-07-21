@@ -1,0 +1,23 @@
+# This is not the require file for when you use the dragonruby package elsewhere
+# It's for running the test-app in the actual package
+
+require "smaug/rspec-mruby/lib/1_matchers.rb"
+require "smaug/rspec-mruby/lib/1_matchers/0_dsl.rb"
+require "smaug/rspec-mruby/lib/1_matchers/1_base_matcher.rb"
+require "smaug/rspec-mruby/lib/1_matchers/be_falsey_matcher.rb"
+require "smaug/rspec-mruby/lib/1_matchers/be_something_matcher.rb"
+require "smaug/rspec-mruby/lib/1_matchers/compare_matcher.rb"
+require "smaug/rspec-mruby/lib/1_matchers/have_something_matcher.rb"
+require "smaug/rspec-mruby/lib/1_matchers/raise_error_matcher.rb"
+require "smaug/rspec-mruby/lib/1_matchers/be_matcher.rb"
+require "smaug/rspec-mruby/lib/1_matchers/be_truthy_matcher.rb"
+require "smaug/rspec-mruby/lib/1_matchers/eq_matcher.rb"
+require "smaug/rspec-mruby/lib/1_matchers/match_matcher.rb"
+require "smaug/rspec-mruby/lib/1_matchers/respond_to_matcher.rb"
+require "smaug/rspec-mruby/lib/assert.rb"
+require "smaug/rspec-mruby/lib/lets.rb"
+require "smaug/rspec-mruby/lib/null_example_group.rb"
+require "smaug/rspec-mruby/lib/example.rb"
+require "smaug/rspec-mruby/lib/example_group.rb"
+require "smaug/rspec-mruby/lib/expectation.rb"
+require "smaug/rspec-mruby/lib/runner.rb"

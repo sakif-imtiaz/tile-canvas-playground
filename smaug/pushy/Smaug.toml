@@ -1,0 +1,28 @@
+[package]
+name = "pushy"
+authors = ["TODO <TODO@example.com>"]
+version = "0.1.0"
+homepage = "TODO: Package Website"
+keywords = []
+
+
+# Optional:
+# documentation = "https://example.com"
+# repository = "http://github.com/example/example"
+
+# Which files do you want to be automatically required from your package.
+requires = ["smaug/pushy/require-in-smaug.rb"]
+
+[dependencies]
+rspec-mruby = "/Users/sakif/Documents/dragonruby/horde/rspec-mruby"
+inline-require = "/Users/sakif/Documents/dragonruby/horde/inline-require"
+
+[package.installs]
+# Example
+#
+# <from> = <to>
+# "lib/library.rb" = "app/lib/library.rb"
+
+[dragonruby]
+version = "2"
+edition = "standard"

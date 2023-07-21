@@ -1,0 +1,2 @@
+To run it:
+/Users/sakif/Downloads/dragonruby-macos\ 3\,23/dragonruby . --eval spec/rspec_test.rb  --no-tick

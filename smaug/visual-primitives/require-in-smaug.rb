@@ -1,0 +1,8 @@
+require "smaug/visual-primitives/lib/basic_values.rb"
+require "smaug/visual-primitives/lib/common_attributes.rb"
+require "smaug/visual-primitives/lib/label.rb"
+require "smaug/visual-primitives/lib/solid.rb"
+require "smaug/visual-primitives/lib/sprite.rb"
+require "smaug/visual-primitives/lib/border.rb"
+require "smaug/visual-primitives/lib/line.rb"
+require "smaug/visual-primitives/lib/volatile.rb"

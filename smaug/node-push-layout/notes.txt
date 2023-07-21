@@ -1,0 +1,34 @@
+Things that are weird in here right now:
+
+Elements::Sizing / Dimensions
+- Dimensions feels a bit nuts, but its working?
+- Could a couple more classes for dimensions help, instead of a dimension class handling relative + absolute dimensions
+- Or could more containers help?
+
+Doing stuff with observables may obviate a lot of stuff in Elements
+- but i don't want to gut the non-reactive version
+- need to be careful
+- if they can have some common interface that'd be great. then things
+
+I'm not wild about how statics are built or how they work
+
+I added Pushy::Observable#transformer_result
+  Not crazy about using it at all
+  And it should have a different name
+  And it shouldn't be updated here but in pushy
+
+I use #transformer_result in Column & Serial
+
+I'm subscribing to to things a lot, and I don't love that. I think I can do something about that
+
+Pushy Concerns
+    Updates that I need to move over to the actual package
+    - Observable#transformer_result
+    - Transformers::WithLatestFrom
+
+    Updates That I should build (here or in the actual package)
+    - Pushy::Helpers
+
+    Subscription exists, but I'm not sure what to do with it.
+    - I think I want to use it for unsubscribing and pausing.
+    - I think the values actually currently go through it but I need to check, and have specs
